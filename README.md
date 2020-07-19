@@ -1,1 +1,1 @@
-# MZ700-VsyncCounter
+# MZ700-VsyncChecker

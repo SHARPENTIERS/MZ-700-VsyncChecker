@@ -1,0 +1,8 @@
+cd ..
+del VSYNCCHECKER.mzf
+exe\z80as.exe -x -m "VSYNC CHECKER" VSYNCCHECKER.a80
+ren VSYNCCHECKER.mzt VSYNCCHECKER.mzf
+exe\mz7c.exe -f "VSYNCCHECKER.mzf"
+del VSYNCCHECKER.mzf
+ren VSYNCCHECKER.mz7 VSYNCCHECKER.mzf
+pause
